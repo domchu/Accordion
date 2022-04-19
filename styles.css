@@ -39,4 +39,19 @@ h2 {
 .content-panel {
   width: 500px;
 }
+
+.div {
+  text-align: center;
+  margin: auto;
+}
+
+.content-text {
+  display: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.content-text.show {
+  display: block;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -28,3 +28,14 @@ h2 {
   width: 500px;
   // height: 70px;
 }
+.div {
+  text-align: center;
+  margin: auto;
+}
+.content-text {
+  display: none;
+  transition: 1s;
+}
+.content-text.show {
+  display: block;
+}
