@@ -26,7 +26,12 @@ h2 {
 }
 .content-panel {
   width: 500px;
+  align-items: center;
+  margin: auto;
   // height: 70px;
+}
+.title {
+  margin-left: 20px;
 }
 .div {
   text-align: center;
@@ -34,8 +39,16 @@ h2 {
 }
 .content-text {
   display: none;
-  transition: 1s;
+  transition: 2s;
+  margin: 10px 0;
 }
 .content-text.show {
   display: block;
+}
+.content-container {
+  // text-align: center;
+  align-items: center;
+  // text-align: center;
+  // display: block;
+  justify-content: center;
 }

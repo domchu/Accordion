@@ -38,6 +38,14 @@ h2 {
 
 .content-panel {
   width: 500px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.title {
+  margin-left: 20px;
 }
 
 .div {
@@ -47,11 +55,21 @@ h2 {
 
 .content-text {
   display: none;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 2s;
+  transition: 2s;
+  margin: 10px 0;
 }
 
 .content-text.show {
   display: block;
+}
+
+.content-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=styles.css.map */
