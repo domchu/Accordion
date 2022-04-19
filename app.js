@@ -1,9 +1,12 @@
-let plus = document.querySelector(".span");
-let panelContent = document.querySelector(".panel");
+let plus = document.querySelectorAll(".span");
+let panelContent = document.querySelectorAll(".panel");
 
-span.addEventListener("click", () => {
-  if (span === "&#43") {
-    panel.style.height = "auto";
-    span.style.display = "&#150";
-  }
-});
+for (let index = 0; index < plus.length; index++) {
+  //   plus.style.display = "&#150";
+  plus[index].addEventListener("click", function (e) {
+    // e.target.textContent = "-";
+    console.log(e.target);
+  });
+
+  //   panel[index].style.height = "auto";
+}
