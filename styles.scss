@@ -28,7 +28,6 @@ h2 {
   width: 500px;
   align-items: center;
   margin: auto;
-  // height: 70px;
 }
 .title {
   margin-left: 20px;
@@ -46,9 +45,14 @@ h2 {
   display: block;
 }
 .content-container {
-  // text-align: center;
   align-items: center;
-  // text-align: center;
-  // display: block;
   justify-content: center;
+}
+.fas {
+  cursor: pointer;
+  color: #000;
+}
+.fas:hover {
+  background-color: #000;
+  color: #eee;
 }
